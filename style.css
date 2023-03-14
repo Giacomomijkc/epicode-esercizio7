@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+}
+
+footer{
+    height: 80px;
+    width: 100%;
+}
+
+#container{
+    display: flex;
+}
+
+#flex-item1{
+    width: 250px;
+    height: 500px;
+    background-color: orange;
+}   
+
+#flex-item2{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+}
+
+#flex-item3{
+    width: 600px;
+    height: 500px;
+    background-color: orangered;
+}
+
+.paragrafo{
+    padding-left: 20px;
+}
