@@ -1,5 +1,5 @@
-.body{
-    margin: 10px;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #title{
@@ -46,12 +46,13 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .box{
     width: 280px;
-    height: 180px;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 
 img{
@@ -97,6 +98,8 @@ img{
 .info-card div{
     width: 50%;
     display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
 }
 
 .info-card>div:nth-child(1){
@@ -114,15 +117,47 @@ img{
     border-radius: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-left: 10px;
+    font-size: 7pt;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 5px;
 }
 
 .designer{
-    font-size: 14px;
+    font-size: 7pt;
+    font-weight: bold;
+}
+
+.foto-profilo{
+    border-radius: 200px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+    margin-right: 5px;
 }
 
 
+.right{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
 
+.left{
+    display: flex;
+    align-items: center;
+}
+
+ion-icon{
+    color: grey;
+    margin-right: 2.5px;
+}
+
+#boosted{
+    color: gray;
+    font-weight: bold;
+}
+
+.details1{
+    margin-right: 10px;
+}
