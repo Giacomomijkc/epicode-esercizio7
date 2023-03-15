@@ -18,10 +18,26 @@ body{
     font-size: medium;
 }
 
-.span{
-    color: rgb(205, 44, 44);
-    padding-left: 10px;
-    padding-right: 10px;
+a{
+    direction: none;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    margin: 0px 10px 0px 10px;
+    color: grey;
+    font-weight: bold;
+}
+
+.link{
+    color: red;
+    text-decoration: none;
+    font-weight: lighter;
 }
 
 #container1{
@@ -32,8 +48,7 @@ body{
     align-items: baseline;
 }
 
-.menu-items:hover{
-    cursor: pointer;
+#webdesign{
     font-weight: bold;
     color: black;
     background-color: gray;
